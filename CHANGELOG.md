@@ -4,22 +4,30 @@ This log records public-facing project changes. An entry under **Unreleased** is
 
 ## Unreleased
 
-### Added
+No additional release is announced.
 
-- Project overview, goals, standard SNES hardware target, and independence statement.
-- Development status document separating goals from verified progress.
-- Contribution guidelines for public feedback and documentation.
-- Public release policy requiring review and explicit maintainer approval.
+## Presentation Demo 0.1 — 2026-11-15
 
-- Proposed release notes for [Presentation Demo 0.1 — Internal Build T16](docs/PRESENTATION_DEMO_0_1.md), the internal candidate for a first public presentation preview.
+Published as a public [GitHub pre-release](https://github.com/InnenWahrheit/Street-Fighter-II-CPS1-to-SNES/releases/tag/presentation-demo-v0.1), tagged `presentation-demo-v0.1`; internal build identifier: T16.
 
-### Changed
+### Released
 
-- Refined the README title, editorial introduction, and standard SNES hardware statement.
-- Updated development reporting to reflect validated presentation components, selected audio sequences, and gameplay behaviors tested in dedicated builds.
-- Distinguished internal integrated presentation validation from ongoing graphics, audio, stage, and HUD development and pending full gameplay integration.
-- Clarified that the presentation candidate is not a complete playable game and that its ROM or patch has not been approved for distribution.
+- Integrated introduction, title, credit/start interaction, character selection, and travel/VS presentation.
+- Music, sound effects, and character announcements in the presented sequence, with presentation timing and transition refinements described in the release.
+- Demo ZIP linked from the release description; see [release documentation](docs/PRESENTATION_DEMO_0_1.md) for the download and verification limits.
 
-These entries document reported project progress and a proposed preview; they do not announce a public build, complete-game validation, or a release date.
+### Reported validation and limitations
+
+- Original Super Nintendo hardware: successful.
+- bsnes: successful.
+- Snes9x: successful.
+- No execution failures or behavioral differences observed in the maintainer-reported tests. Results apply only to the reported T16 presentation scope; universal compatibility is not claimed.
+- Presentation preview only: combat and full gameplay integration are not included or claimed complete.
+
+### Documentation
+
+- Updated public availability, presentation scope, and reported compatibility results.
+- Described the project as an independently developed SNES implementation using the original CPS1 game as a behavioral and audiovisual reference.
+- Preserved intellectual-property disclaimers and internal development confidentiality restrictions.
 
 Future release entries should identify the release, summarize verified changes, and state known limitations in accordance with the [Release Policy](docs/RELEASE_POLICY.md).
