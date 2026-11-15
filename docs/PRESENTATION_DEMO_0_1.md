@@ -12,7 +12,7 @@ This is a presentation preview, not a complete playable game.
 
 ## Download
 
-The published release description links to [SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip](https://github.com/user-attachments/files/34880827/SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip).
+Download [SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip](https://github.com/InnenWahrheit/Street-Fighter-II-CPS1-to-SNES/releases/download/presentation-demo-v0.1/SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip) from the published release's **Assets** section.
 
 ## Presentation scope
 

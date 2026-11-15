@@ -32,7 +32,7 @@ Component validation establishes progress within the tested scope; it does not e
 
 The release includes the introduction, title, credit/start interaction, character selection, travel/VS presentation, and music, sound effects, and character announcements in that sequence. It is a presentation preview, not a complete playable game; full gameplay integration remains unfinished.
 
-The release page links to `SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip` in its description. See the [published release documentation](docs/PRESENTATION_DEMO_0_1.md) for scope, download information, and limitations.
+The demo ZIP, `SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip`, is available in the release's **Assets** section. See the [published release documentation](docs/PRESENTATION_DEMO_0_1.md) for scope, download information, and limitations.
 
 The maintainer reports successful testing of the T16 presentation sequence on original Super Nintendo hardware, bsnes, and Snes9x, with no execution failures or behavioral differences observed in the reported tests. These results apply only to the reported test scope; they do not establish universal compatibility across hardware revisions or emulator versions.
 

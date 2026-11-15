@@ -14,7 +14,7 @@ Published as a public [GitHub pre-release](https://github.com/InnenWahrheit/Stre
 
 - Integrated introduction, title, credit/start interaction, character selection, and travel/VS presentation.
 - Music, sound effects, and character announcements in the presented sequence, with presentation timing and transition refinements described in the release.
-- Demo ZIP linked from the release description; see [release documentation](docs/PRESENTATION_DEMO_0_1.md) for the download and verification limits.
+- Demo ZIP available in the release's Assets section; see [release documentation](docs/PRESENTATION_DEMO_0_1.md) for the download and verification limits.
 
 ### Reported validation and limitations
 
