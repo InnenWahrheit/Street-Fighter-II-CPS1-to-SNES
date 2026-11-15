@@ -1,6 +1,10 @@
-# Street Fighter II CPS1 to SNES
+# Street Fighter II: CPS1 to SNES
+
+*Bringing the original arcade experience closer to the Super Nintendo.*
 
 An independent, non-commercial effort to reproduce the original CPS1 Street Fighter II experience on standard Super Nintendo hardware, without enhancement chips.
+
+**No enhancement chips. No additional hardware. Just the Super Nintendo.**
 
 ## Project goals
 
@@ -10,15 +14,23 @@ These are development goals, not claims of completed features or exact arcade eq
 
 ## Development areas
 
-- **Gameplay and controls:** movement, attacks, timing, interactions, and input responsiveness.
-- **Visual presentation:** character animation, stage presentation, interface clarity, and overall visual consistency.
-- **Audio:** music, sound effects, and their timing during play.
-- **Game flow:** menus, match progression, transitions, and player-facing options.
-- **Hardware validation:** stability, responsiveness, and consistent behavior on standard SNES hardware without enhancement chips.
+- **Arcade introduction and title presentation:** validated in dedicated builds.
+- **Character selection and VS presentation:** validated, with an integrated demonstration available internally.
+- **Character graphics and animation:** development in progress.
+- **Gameplay mechanics:** several behaviors implemented and tested in dedicated builds; broader development continues.
+- **Arcade music, sound effects, and voices:** selected sequences validated; broader implementation ongoing.
+- **Backgrounds, HUD, and visual effects:** development in progress.
+- **Full gameplay integration:** not yet complete.
 
 ## Development status
 
-The public documentation establishes the project's scope and reporting policy. It does not establish implementation milestones, completion percentages, or the availability of a playable build. See [Development Status](docs/DEVELOPMENT_STATUS.md) for the current public record.
+Component validation establishes progress within the tested scope; it does not establish that the complete game is integrated or validated. See [Development Status](docs/DEVELOPMENT_STATUS.md) for the distinction between dedicated builds, the internal integrated demonstration, ongoing development, and pending integration.
+
+## First public preview candidate
+
+**Presentation Demo 0.1 — Internal Build T16** is the planned first public preview candidate. It demonstrates the integrated introductory presentation, title sequence, character selection, and VS flow. This is a presentation-focused preview, not a complete playable game.
+
+The [proposed release notes](docs/PRESENTATION_DEMO_0_1.md) describe its scope and limitations. The actual ROM or patch has not been approved for distribution. The candidate is internal and is not publicly available; no release date is announced.
 
 ## Public releases
 
@@ -29,6 +41,7 @@ See the [Release Policy](docs/RELEASE_POLICY.md) for the full process. This repo
 ## Documentation
 
 - [Development Status](docs/DEVELOPMENT_STATUS.md): goals, evidence standards, and public progress reporting.
+- [Presentation Demo 0.1](docs/PRESENTATION_DEMO_0_1.md): proposed release notes for the internal preview candidate.
 - [Changelog](CHANGELOG.md): recorded public-facing changes.
 - [Contributing](CONTRIBUTING.md): feedback and documentation contribution guidelines.
 - [Release Policy](docs/RELEASE_POLICY.md): review, approval, and release communication requirements.
