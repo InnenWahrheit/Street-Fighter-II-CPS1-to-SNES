@@ -12,9 +12,7 @@ This is a presentation preview, not a complete playable game.
 
 ## Download
 
-The published release description links to [SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip](https://github.com/user-attachments/files/34880827/SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip). This is a GitHub user attachment linked from the release body; the Release Assets list is empty. GitHub's automatically generated source archives are repository snapshots, not the demo download.
-
-The link and its redirect were verified during this documentation update, but the attachment storage destination was blocked in the verification environment. Archive contents, ROM size, and checksum were therefore not independently verified. Consult the published release for maintainer-provided technical metadata.
+The published release description links to [SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip](https://github.com/user-attachments/files/34880827/SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip).
 
 ## Presentation scope
 
