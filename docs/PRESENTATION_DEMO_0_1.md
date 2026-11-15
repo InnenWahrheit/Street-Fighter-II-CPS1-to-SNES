@@ -1,42 +1,52 @@
 # Presentation Demo 0.1 — Internal Build T16
 
-**Proposed release notes — internal candidate, not a public release.**
+**Published public pre-release — November 15, 2026.**
 
 ## Purpose and availability
 
-Presentation Demo 0.1 is the planned first public preview candidate for Street Fighter II: CPS1 to SNES. Internal Build T16 demonstrates an integrated presentation flow. It is a presentation-focused preview, not a complete playable game.
+An independently developed, non-commercial SNES implementation using the original Street Fighter II: The World Warrior CPS1 arcade game as a behavioral and audiovisual reference, targeting standard Super Nintendo hardware without enhancement chips or additional hardware.
 
-The actual ROM or patch has not been approved for distribution. The candidate is internal and is not publicly available. These proposed notes do not authorize distribution or announce a release date.
+The [GitHub Release](https://github.com/InnenWahrheit/Street-Fighter-II-CPS1-to-SNES/releases/tag/presentation-demo-v0.1) is titled **Street Fighter II CPS1 to SNES — Presentation Demo 0.1**, with tag `presentation-demo-v0.1`. GitHub records publication at `2026-11-15T18:16:21Z` (November 15, 2026). It is published, not a draft, and marked as a pre-release. “Internal Build T16” is the build identifier, not a restriction on the published demo's availability.
+
+This is a presentation preview, not a complete playable game.
+
+## Download
+
+Download [SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip](https://github.com/InnenWahrheit/Street-Fighter-II-CPS1-to-SNES/releases/download/presentation-demo-v0.1/SF2_CPS1_SNES_Presentation_Demo_0.1_TESTED.zip) from the published release's **Assets** section.
 
 ## Presentation scope
 
-The candidate brings together the following observable presentation elements:
+The published release describes:
 
-- The arcade introductory presentation.
-- The title sequence.
-- Character selection.
-- The VS presentation and the flow leading into it.
+- Arcade-inspired introduction and title presentation.
+- Credit/start interaction and character selection sequence.
+- Travel and VS presentation.
+- Music, sound effects, and character announcements in the presented sequence.
+- Presentation timing and transition refinements from the integration process.
 
-The introductory and title components have been validated in dedicated builds. Character selection and VS presentation have been validated in the internal integrated demonstration. T16 brings these presentation elements together; this does not establish full gameplay integration.
+These features describe the published T16 presentation sequence; they do not establish full gameplay integration, complete audio coverage, or exact arcade equivalence.
 
-## Audiovisual progress
+## Reported compatibility tests
 
-The preview focuses on the visible progression from the introduction and title sequence through character selection to the VS presentation. It brings previously separate presentation components into a connected demonstration of the intended arcade experience.
+| Environment | Maintainer-reported result |
+| --- | --- |
+| Original Super Nintendo hardware | Successful |
+| bsnes | Successful |
+| Snes9x | Successful |
 
-Audio development includes validated selected sequences of arcade music, sound effects, and voices, with broader implementation ongoing. This project-level progress does not establish complete audio coverage in T16. No sequence-by-sequence T16 audio inventory, specific visual-fidelity comparison, or measured audiovisual improvement is asserted by these proposed notes.
+No execution failures or behavioral differences were observed in the reported tests. These results apply only to the tested T16 presentation flow. Hardware revisions, emulator versions, and detailed test records are not specified in the release; universal compatibility is not claimed. No independent execution testing was performed for this documentation update.
 
 ## Known limitations
 
 - Full gameplay integration is not yet complete; the presentation flow does not demonstrate a complete playable match.
-- Several gameplay behaviors have been implemented and tested in dedicated builds. Their integration into T16 is not claimed.
+- Combat, full gameplay mechanics, stages, and further character content are being developed in other builds and are not claimed as part of this demo.
 - Character graphics and animation, backgrounds, HUD, and visual effects remain in development.
-- Selected audio validation does not establish complete music, sound-effect, or voice coverage.
-- Component validation is limited to its reported scope. These notes do not establish comprehensive standard SNES hardware validation; test environments and detailed results are not specified here.
+- The presented audio does not establish complete music, sound-effect, or voice coverage.
 
-## Review before any public release
+## Feedback and publication boundaries
 
-Maintainers must confirm the final preview scope, the audiovisual sequences actually included, the test environment and results, and the known limitations before approving final release notes. Any claims of specific audiovisual improvements require corresponding observations. Public availability and a distribution location may be announced only after the material is approved and actually available.
+Report observations through the project's issue tracker with hardware or emulator details, reproduction steps, and observed behavior. Source code, internal tools, memory management details, conversion techniques, and internal implementation details remain outside the public documentation and distribution. The release does not authorize additional disclosure or redistribution of ROM files, patches, or copyrighted assets.
 
-The existing [Release Policy](RELEASE_POLICY.md) applies in full, including rights review and explicit maintainer approval. This independent, non-commercial project is not affiliated with or endorsed by Capcom or Nintendo, and no permission to distribute third-party material is implied.
+The existing [Release Policy](RELEASE_POLICY.md) applies in full, including rights review and explicit maintainer approval. This independent, non-commercial project is not affiliated with or endorsed by Capcom or Nintendo, and no permission to distribute third-party material is implied. Third-party trademarks, characters, and protected audiovisual works remain their respective owners' property. No representation is made that third-party redistribution rights have been licensed or cleared.
 
 See [Development Status](DEVELOPMENT_STATUS.md) for project-wide progress and the [README](../README.md) for goals and intellectual-property disclaimers.
